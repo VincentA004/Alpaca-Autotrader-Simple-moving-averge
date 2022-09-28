@@ -7,7 +7,7 @@ class Place_Orders:
         self.buy_signal = bs
         self.sell_signal = ss
         self.BASE_URL = 'https://paper-api.alpaca.markets{request}'
-        self.Auth_Headers = {'APCA-API-KEY-ID': 'PKHCX3H4HKEBAN3H1GNZ', 'APCA-API-SECRET-KEY': 'VQRdl2Ted2a5EvkcbGGZTnUHAntf7wM2C8SC43RR'}
+        self.Auth_Headers = {'APCA-API-KEY-ID': 'XXXXXXXXXXXXX', 'APCA-API-SECRET-KEY': 'XXXXXXXXXXXXX'}
         
     def get_account_info(self):
         data = requests.get(self.BASE_URL.format(request = '/v2/account'), headers = self.Auth_Headers).json()
