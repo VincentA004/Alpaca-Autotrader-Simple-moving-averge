@@ -3,7 +3,7 @@
 ## Overview
 This algorithmic trading program uses Simple Moving Average(SMA) as a trading indicator to buy and sell stock.
 The program takes in real time stock data from the Alpaca brokerage API and determines 
-if the currect price is a good time to buy or sell using SMA and excutes the trade without the need for human intervention.
+if the currect price is a good time to buy or sell using SMA and then executes the trade without the need for human intervention.
 
 ## Data
 This program will sell stock of companies listed within the SP500.csv file\
